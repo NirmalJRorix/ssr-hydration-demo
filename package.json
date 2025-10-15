@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:ssr-hydration-demo": "node dist/ssr-hydration-demo/server/server.mjs"
+    "serve:ssr:ssr-hydration-demo": "node dist/ssr-hydration-demo/server/server.mjs",
+    "dev:ssr": "ng run ssr-hydration-demo:serve:development"
   },
   "prettier": {
     "printWidth": 100,
